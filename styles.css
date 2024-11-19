@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff;
+    color: #03396c;
+}
+
+#main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b3d9ff;
+}
+
+/* Title */
+#title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #005b96;
+    text-align: center;
+    border-bottom: 2px solid #b3d9ff;
+    padding-bottom: 10px;
+}
+
+/* Image Section */
+#img-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid #b3d9ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block; /* Menjadikan gambar elemen block */
+    margin: 0 auto; /* Agar tetap terpusat */
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #03396c;
+    border-left: 4px solid #005b96;
+    padding-left: 8px;
+}
+
+#tribute-info p {
+    margin: 0 0 10px;
+    color: #444;
+}
+
+#tribute-info ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#tribute-info ul li {
+    margin-bottom: 8px;
+    color: #03396c;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #005b96;
+    font-weight: bold;
+    background: #b3d9ff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+#tribute-link:hover {
+    background: #03396c;
+    color: #fff;
+}
